@@ -71,7 +71,6 @@ async def own(event):
         msg += "\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ **@xdoct**"
     await event.edit(
         msg,
- 
         buttons=[Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
         link_preview=False,
     )
