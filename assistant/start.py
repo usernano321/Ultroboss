@@ -71,10 +71,9 @@ async def own(event):
         msg += "\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ **@xdoct**"
     await event.edit(
         msg,
-        buttons = [
-            [
-                InlineKeyboardButton(text="🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
-                InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀ", url="https://t.me/todoshotou"),
+        
+        buton.InlineKeyboardButton(text"🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
+        buton.InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀ", url="https://t.me/todoshotou"),
             ],
             [
         buttons=[Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
