@@ -74,8 +74,8 @@ async def own(event):
         
         buton.InlineKeyboardButton(text"🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
         buton.InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀ", url="https://t.me/todoshotou"),
-            ],
-            [
+     ],
+     [
         buttons=[Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
         link_preview=False,
     )
