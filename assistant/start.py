@@ -73,8 +73,8 @@ async def own(event):
         msg,
  buttons = [
      [
-        butons.InlineKeyboardButton(text"🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
-        butons.InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀ", url="https://t.me/todoshotou"),
+        Button(text"🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
+        Button(text="👑 sᴜᴘᴘᴏʀ", url="https://t.me/todoshotou"),
      ],
      [
         buttons=[Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
