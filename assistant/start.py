@@ -77,7 +77,7 @@ async def own(event):
                 InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀ", url="https://t.me/todoshotou"),
             ],
             [
-        buttons=[Button.inline("Close", data="closeit")],
+        buttons=[Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
         link_preview=False,
     )
 
