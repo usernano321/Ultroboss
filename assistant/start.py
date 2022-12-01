@@ -62,8 +62,8 @@ _start = [
 
 _my = [
     [
-        Button.inline("🎧 ᴍᴜsɪᴋ", data="https://t.me/fathertapibot"),
-        Button.inline("👑 sᴜᴘᴘᴏʀᴛ", data="https://t.me/Todoshotou"),
+        InlineKeyboardButton(text="🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
+        InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Todoshotou"),
     ],
     [Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
 ]
