@@ -62,8 +62,8 @@ _start = [
 
 _my = [
     [
-        InlineKeyboardButton(text="🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
-        InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Todoshotou"),
+        Button.inline("🎧 ᴍᴜsɪᴋ", data="https://t.me/fathertapibot"),
+        Button.inline("👑 sᴜᴘᴘᴏʀᴛ", data="https://t.me/Todoshotou"),
     ],
     [Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
 ]
@@ -99,7 +99,7 @@ async def ultroid(event):
         kak_uiw = udB.get_key("OFF_START_LOG")
         if not kak_uiw or kak_uiw != True:
             msg = f"{inline_mention(event.sender)} `[{event.sender_id}]` started your [Assistant bot](@{asst.me.username})."
-            buttons = [[Button.inline("Info", "itkkstyo")]]
+            buttons = [.inline("Info", "itkkstyo")]]
             if event.sender.username:
                 buttons[0].append(
                     Button.mention(
