@@ -8,14 +8,13 @@
 from datetime import datetime
 
 from pytz import timezone as tz
-from telethon import Button, events
-from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
-from telethon.utils import get_display_name
-
 from pyUltroid._misc import SUDO_M, owner_and_sudos
 from pyUltroid.dB.asst_fns import *
 from pyUltroid.fns.helper import inline_mention
 from strings import get_string
+from telethon import Button, events
+from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
+from telethon.utils import get_display_name
 
 from . import *
 
@@ -71,13 +70,13 @@ async def own(event):
         msg += "\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ **@xdoct**"
     await event.edit(
         msg,
-        buttons = [
+        buttons=[
             [
-                InlineKeyboardButton(text="🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
-                InlineKeyboardButton(text="👑 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Todoshotou"),
+                Button.inline("🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
+                Button.inline("👑 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Todoshotou"),
             ],
-            [
-        buttons=[Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
+            [Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
+        ],
         link_preview=False,
     )
 
