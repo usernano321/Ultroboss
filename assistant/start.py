@@ -60,6 +60,14 @@ _start = [
     [Button.inline("TɪᴍᴇZᴏɴᴇ 🌎", data="tz")],
 ]
 
+_my = [
+    [
+        Button.inline("🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
+        Button.inline("👑 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Todoshotou"),
+    ],
+    [Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
+]
+
 
 @callback("ownerinfo")
 async def own(event):
@@ -70,13 +78,7 @@ async def own(event):
         msg += "\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ **@xdoct**"
     await event.edit(
         msg,
-        buttons=[
-            [
-                Button.inline("🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
-                Button.inline("👑 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Todoshotou"),
-            ],
-            [Button.inline("ᴛᴜᴛᴜᴘ", data="closeit")],
-        ],
+        buttons=_my,
         link_preview=False,
     )
 
