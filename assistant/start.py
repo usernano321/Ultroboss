@@ -60,7 +60,7 @@ _start = [
     [Button.inline("TɪᴍᴇZᴏɴᴇ 🌎", data="tz")],
 ]
 
-_my = [
+_ownerinfo = [
     [
         Button.inline("🎧 ᴍᴜsɪᴋ", url="https://t.me/fathertapibot"),
         Button.inline("👑 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Todoshotou"),
