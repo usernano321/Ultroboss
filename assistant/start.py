@@ -75,7 +75,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(ultroid_bot.me)
     )
     if custom_info:
-        msg += "\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ **@xdoct**"
+        msg += "\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ **@xtelr**"
     await event.edit(
         msg,
         buttons=_my,
